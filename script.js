@@ -134,7 +134,7 @@
       btn.addEventListener('click', function () {
         var product = btn.getAttribute('data-product');
         var msg = 'Hello Acquah Ice, I would like to order: ' + product + '. Please provide pricing and delivery details.';
-        window.open('https://wa.me/233548368296?text=' + encodeURIComponent(msg), '_blank');
+        window.open('https://wa.me/23320982222?text=' + encodeURIComponent(msg), '_blank');
       });
     });
   }
@@ -553,7 +553,7 @@
       if (!valid) return;
 
       var msg = 'Hello Acquah Ice,\n\nName: ' + name.value + '\nPhone: ' + phone.value + '\nEmail: ' + (form.querySelector('[name="email"]').value || 'N/A') + '\n\nMessage: ' + message.value;
-      window.open('https://wa.me/233548368296?text=' + encodeURIComponent(msg), '_blank');
+      window.open('https://wa.me/23320982222?text=' + encodeURIComponent(msg), '_blank');
       success.classList.add('show');
       form.reset();
       setTimeout(function () { success.classList.remove('show'); }, 5000);
